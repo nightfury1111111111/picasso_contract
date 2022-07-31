@@ -3,5 +3,3 @@ cache/
 artifacts/
 publish/
 flatten/
-
-.env
