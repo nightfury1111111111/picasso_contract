@@ -27,12 +27,12 @@ module.exports = {
   },
   networks: {
     mainnet: {
-      url: `https://rpcapi.fantom.network`,
+      url: `https://rpc.ftm.tools`,
       chainId: 250,
       accounts: [`0x${PRIVATE_KEY}`],
     },
     testnet: {
-      url: `https://rpcapi-tracing.testnet.fantom.network`,
+      url: `https://rpc.testnet.fantom.network`,
       chainId: 4002,
       accounts: [`0x${PRIVATE_KEY}`],
     },
